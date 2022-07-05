@@ -37,21 +37,22 @@ p{
     line-height: 28px;
 }
 .banner-paragraph{
-    color: whitesmoke;
+    color: #ffffff;
     font-size: 18px;
     margin-bottom: 50px;
 }
 .top-banner{
     background-image: url(../images/top-banner/banner-image.jpg);
+    /* opacity: 0.5; */
     background-repeat: no-repeat;
     background-size: cover;
     position: inherit;
     width: 100%;
-    height: 669px;
+    height: 800px;
     left: 0px;
     top: 0px;
     display: flex;
-    margin-bottom: 130px;
+    margin-bottom: 50px;
 }
 .banner-details{
     text-align: center;
@@ -85,7 +86,7 @@ p{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 25px;
+    margin: 55px 20px 30px 20px;
 }
 #amount-color{
 background: #FFEEEE;
@@ -100,8 +101,12 @@ color: #FF5959;
     margin-top: 20px;
     margin-bottom: 30px;
 }
-.other-amount p{
+.other-amount input{
     color: #B3B3B3;
+    font-size: 18px;
+    border: none;
+    opacity: 0.5;
+    padding: 15px 40px;
 }
 .amount-donation{
     text-align: center;
@@ -184,7 +189,7 @@ footer{
     width: 100%;
     height: 177px;
     text-align: center;
-    background-color: black;
+    background-color: #1E1E1E;;
     margin-top: 130px;
     padding-top: 10px;
 }
