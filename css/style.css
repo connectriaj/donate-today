@@ -189,6 +189,11 @@ color: #FF5959;
 }
 .donor-card{
     margin: 15px;
+    box-shadow: 10px 10px 40px grey;
+    border-bottom: 10px solid #00acee;
+    ;
+    border-radius: 10px;
+    padding: 20px;
 }
 .donor-card img{
     width: 230px;
