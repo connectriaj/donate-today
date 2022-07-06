@@ -1,5 +1,6 @@
 /* google fonts linkup */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat&family=Poppins&display=swap');
 *,
 *::before,
 *::after{
@@ -11,11 +12,14 @@
 body{
     font-family: 'Montserrat', sans-serif;
     font-family: 'Poppins', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
     background-color: #FFFFFF;
 }
 h1{
     font-size: 65px;
-    font-weight: 700;
+    font-weight: bolder;
     line-height: 78.66px;
     color: #FFFFFF;
 }
@@ -37,7 +41,8 @@ p{
     line-height: 28px;
 }
 .banner-paragraph{
-    color: #ffffff;
+    /* color: #ffffff; */
+    color: orange;
     font-size: 18px;
     margin-bottom: 50px;
 }
@@ -59,6 +64,7 @@ p{
     width: 826px;
     margin: auto;
 }
+/* all buttons are here */
 .click-button{
     text-decoration: none;
     background-color:#FF5959;
@@ -67,6 +73,13 @@ p{
     font-weight: 600;
     padding: 15px 45px;
     border-radius: 25px;
+}
+.contribute-button{
+    text-decoration: none;
+    background-color: #FF5959;
+    color: #FAFAFA;
+    padding: 15px 45px;
+    border-radius: 20px;
 }
 /* donation area start */
 .donation-details{
@@ -145,11 +158,46 @@ color: #FF5959;
     background: #FFF4D6;
     border-radius: 5px;
 }
+/* news section */
+.news-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 130px 150px;
+}
+.news-half{
+    width: 493px;
+    height: 374px;
+}
+.news-half img{
+    width: 100%;
+    height: 477px;
+}
+/* donors section */
+.donor-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 80px auto 0;
+}
+.donor-card{
+    margin: 15px;
+}
+.donor-card img{
+    width: 300px;
+    height: 200px;
+    margin: auto;
+}
 /* get update section */
+.updates-section{
+   display: flex;
+   flex-direction: column;
+}
 .get-update-details{
     text-align: center;
     width: 691px;
     margin: auto;
+    margin-top: 130px;
     margin-bottom: 50px;
 }
 .user-form{
@@ -193,7 +241,7 @@ footer{
     margin-top: 130px;
     padding-top: 10px;
 }
-.color-text{
+#color-text{
     color: #FF5959;
     font-family: Lobster;
     font-size: 36px;
